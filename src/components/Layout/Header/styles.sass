@@ -1,0 +1,27 @@
+@use '../../../styles/util' as *
+
+header
+    position: relative
+    z-index: 100
+
+    > div
+        @include container-a
+
+    .flex-wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 1em 0
+
+    .nav-links
+        display: none
+
+    @include medium
+        .sidedrawer-toggler
+            display: none
+
+        .nav-links
+            display: block
+
+            a
+                margin-left: 1em

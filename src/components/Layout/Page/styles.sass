@@ -1,0 +1,29 @@
+@use '../../../styles/util' as *
+
+.page
+    section
+        @include container-c
+
+        &.top
+            text-align: center
+
+            h1
+                padding-top: 1em
+
+        img
+            height: 250px
+
+            @include medium
+                height: 300px
+
+
+    p
+        span, a
+            font-style: italic
+            opacity: .8
+
+        a
+            text-decoration: underline
+            padding-left: 5px
+
+        

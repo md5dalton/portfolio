@@ -1,0 +1,31 @@
+@use '../../../styles/util' as *
+
+.contact
+    form
+        padding-top: 1em
+
+        .form-section
+            margin-top: 2em
+
+        label
+            text-transform: capitalize
+
+        input, textarea
+            display: block
+            margin-top: 1em
+            appearance: none
+            border: none
+            background-color: var(--color-bg-2)
+            outline: none
+            width: 100%
+
+            @include medium
+                width: 70%
+
+        input
+            height: 2.2em
+            padding: 0 1em
+
+        textarea
+            padding: 1em
+            height: 400px

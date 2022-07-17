@@ -1,0 +1,54 @@
+html
+    box-sizing: border-box
+    scrollbar-width: none
+
+    &::-webkit-scrollbar
+        display: none
+
+*, 
+*::before, 
+*::after
+    box-sizing: inherit
+
+body
+    margin: 0
+    padding: 0
+    padding-bottom: 5em
+    background-color: var(--color-bg)
+    background-repeat: no-repeat
+    color: var(--color-text)
+    font-family: var(--font)
+    font-size: 18px
+    
+    &.dark img
+        filter: brightness(.8) contrast(1.2)
+
+a,
+button,
+input,
+textarea
+    font-family: inherit
+    font-size: inherit
+
+a,
+input,
+textarea
+    color: inherit
+
+.icon
+    cursor: pointer
+
+h1, 
+h2, 
+h3 
+    margin-top: 0
+    margin-bottom: 0
+    line-height: 1.1
+
+a, 
+a:visited, 
+a:active 
+    text-decoration: none
+
+a:active 
+    color: var(--color-primary)

@@ -1,0 +1,28 @@
+@use '../../../styles/util' as *
+
+.about
+    section
+        @include container-c
+
+        &.CTA-warapper
+            display: flex
+            padding-top: 2em
+            justify-content: flex-end
+
+        &.top img
+            border-radius: 50%
+            width: 250px
+            object-fit: cover
+
+            @include medium
+                width: 300px
+    p
+        line-height: 1.5em
+        text-align: justify
+
+        &.caps
+            text-transform: uppercase
+            
+        &:first-child
+            margin-top: 3em
+            
