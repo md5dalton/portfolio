@@ -31,7 +31,7 @@ export default () => (
                     <textarea></textarea>
                 </div>
                 <div className="form-section">
-                    <Button type="submit">Send</Button>
+                    <Button type="submit" disabled>Send</Button>
                 </div>
             </form>
             <p className="side-note">
