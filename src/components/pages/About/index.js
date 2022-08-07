@@ -8,7 +8,7 @@ import "./styles.sass"
 export default () => (
     <Page name="about">
         <section className="top">
-            <div className="profile"><img src="/images/svg/avatar-2.svg" alt="profile" /></div>
+            <div className="profile"><img src="/images/svg/about.svg" alt="profile" /></div>
             <h1>My story</h1>
         </section>
         <section>

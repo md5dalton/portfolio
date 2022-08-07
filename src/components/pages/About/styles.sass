@@ -1,6 +1,8 @@
 @use '../../../styles/util' as *
 
 .about
+    padding-top: 2em
+
     section
         @include container-c
 
@@ -10,12 +12,15 @@
             justify-content: flex-end
 
         &.top img
-            border-radius: 50%
-            width: 250px
-            object-fit: cover
+            // border-radius: 50%
+            // width: 250px
+            // object-fit: cover
 
-            @include medium
-                width: 300px
+            @include small-only
+                max-width: 100%
+
+            // @include medium
+                // width: 300px
     p
         line-height: 1.5em
         text-align: justify
