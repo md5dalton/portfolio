@@ -8,8 +8,8 @@ import "./styles.sass"
 export default () => (
     <Page name="about">
         <section className="top">
-            <div className="profile"><img src="/images/photos/portrait-large.jpg" alt="profile" /></div>
-            <h1>My origin story</h1>
+            <div className="profile"><img src="/images/svg/avatar-2.svg" alt="profile" /></div>
+            <h1>My story</h1>
         </section>
         <section>
             <p className="caps">Hello, I'm Majara, I'm from Lesotho</p>
