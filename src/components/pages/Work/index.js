@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Page from '../../Layout/Page'
+import Button from '../../UI/Button'
 import List from '../../UI/List'
 import ProjectItem from './ProjectItem'
-import StepItem from './StepItem'
 
 import "./styles.sass"
 
@@ -62,6 +63,7 @@ export default () => (
                 development, I needed to be aware of the main trends and technologies and to be mindful of the emerging technologies and changes
                 in the internet to develop seamless web experience.
             </p>
+            <Link to="/contact"><Button>contact me</Button></Link>
         </section>
         <div className="projects">
             <section>

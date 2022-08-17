@@ -1,6 +1,8 @@
+@use "../util" as *
+
 html
     box-sizing: border-box
-    scrollbar-width: none
+    // scrollbar-width: none
 
     &::-webkit-scrollbar
         display: none
@@ -52,3 +54,6 @@ a:active
 
 a:active 
     color: var(--color-primary)
+
+button
+    transition: $transition

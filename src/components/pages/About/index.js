@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Page from '../../Layout/Page'
-import Button from '../../UI/Button'
+import LinkButton from '../../UI/LinkButton'
 
 import "./styles.sass"
 
@@ -63,7 +62,7 @@ export default () => (
             </p>
         </section>
         <section className="CTA-warapper">
-            <Button><Link to="/contact">Get in touch</Link></Button>
+            <LinkButton to="/contact">Get in touch</LinkButton>
         </section>
     </Page>
 )
