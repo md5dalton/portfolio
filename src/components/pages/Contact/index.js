@@ -16,7 +16,7 @@ export default () => {
         if (!email.value) email.focus()
         if (!name.value) name.focus()
 
-        if (message.value && email.value && name.value) window.open(`mailto:md5daltonggs@gmail.com?subject=Interested Client: ${name}&body=${message}`)
+        if (message.value && email.value && name.value) window.open(`mailto:md5daltonggs@gmail.com?subject=Interested Client: ${name.value}&body=${message.value}`)
 
     }
     
