@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Job listings with filtering with React and Sass",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/aapvewejpjtf1ln9bmii.jpg",
+        "link": "https://www.frontendmentor.io/solutions/job-listings-with-filtering-with-react-and-sass-LTC4vnQ9mC",
+        "preview": "https://jobs-dalton.vercel.app",
+        "code": "https://github.com/md5dalton/jobs"
+    },
+    {
+        "name": "Social media dashboard with theme switcher",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/g6fjlhaxxwjccox75v8n.jpg",
+        "link": "https://www.frontendmentor.io/solutions/socialmediadashboardwiththemeswitchermaster-JhmlyTr5NZ",
+        "preview": "https://social-media-dashboard-sable-six.vercel.app",
+        "code": "https://github.com/md5dalton/media-dashboard"
+    },
+    {
+        "name": "Easybank landing page solution",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/fwroqoaorbmjltxewnkv.jpg",
+        "link": "https://www.frontendmentor.io/solutions/easybank-landing-page-solution-LgK3H048Bo",
+        "preview": "https://easybank-plum.vercel.app",
+        "code": "https://github.com/md5dalton/easybank"
+    },
+    {
+        "name": "REST Countries API with color theme switcher",
+        "image": "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/qcbknjrrcxgosj5edhun.jpg",
+        "link": "https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher--BRfujiUAF",
+        "preview": "https://rest-countries-md5dalton.vercel.app",
+        "code": "https://github.com/md5dalton/rest-countries"
+    }
+]

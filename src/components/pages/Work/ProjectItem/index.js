@@ -8,8 +8,8 @@ export default ({ image, name, preview, code }) => {
             <div className="poster">
                 <img alt='' src={image} />
                 <div className="links">
-                    {preview ? <Button role="secondary"><a href={preview} target="_blank">Preview App</a></Button> : null}
-                    {code ? <Button role="terciary"><a href={code} target="_blank">View Code</a></Button> : null}
+                    {preview && <a href={preview} target="_blank"><Button>Preview App</Button></a>}
+                    {code && <a href={code} target="_blank"><Button className="terciary">View Code</Button></a>}
                 </div>
             </div>
             <div className="name">{name}</div>

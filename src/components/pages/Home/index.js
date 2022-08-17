@@ -33,9 +33,10 @@ export default () => (
         <section className="benefits">
             <h2>Take a quick look of how I work</h2>
             <p>
-                I collaborate with your website and graphic designers to build your website from designs made from various softwares such as Adobe XD,
-                Sketch, Figma, Photoshop, etc, fashioning everything from the landing page to site layout and enhancing user experience. I integrate data
-                from various back-end services whether it's through a REST api, all the way to completion and deployment.
+                I collaborate with your website designers and graphic designers to build your website made from various softwares such as Adobe XD,
+                Sketch, Figma and Photoshop, fashion everything from the landing page, site layout and enhance user experience. I integrate data
+                from various back-end services through a REST api to make your website more exciting and dynamic. I deploy your website to get it up
+                running on a hosting service provider of your choosing.
             </p>
             <p>I'll journey with you to some of the projects I've worked on.</p>
             <LinkButton to="/work">See My Work</LinkButton>

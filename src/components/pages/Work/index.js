@@ -1,35 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Page from '../../Layout/Page'
-import Button from '../../UI/Button'
+import LinkButton from '../../UI/LinkButton'
 import List from '../../UI/List'
 import ProjectItem from './ProjectItem'
 
-import "./styles.sass"
+import projects from "./data.json"
 
-const projects = [
-    {
-        name: "Social media dashboard with theme switcher",
-        image: "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/g6fjlhaxxwjccox75v8n.jpg",
-        link: "https://www.frontendmentor.io/solutions/socialmediadashboardwiththemeswitchermaster-JhmlyTr5NZ",
-        preview: "https://social-media-dashboard-sable-six.vercel.app/",
-        code: "https://github.com/md5dalton/media-dashboard.git"
-    },
-    {
-        name: "Easybank landing page solution",
-        image: "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/fwroqoaorbmjltxewnkv.jpg",
-        link: "https://www.frontendmentor.io/solutions/easybank-landing-page-solution-LgK3H048Bo",
-        preview: "https://easybank-plum.vercel.app/",
-        code: "https://github.com/md5dalton/easybank.git"
-    },
-    {
-        name: "REST Countries API with color theme switcher",
-        image: "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/qcbknjrrcxgosj5edhun.jpg",
-        link: "https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher--BRfujiUAF",
-        preview: "https://rest-countries-md5dalton.vercel.app/",
-        code: "https://github.com/md5dalton/rest-countries"
-    }
-]
+import "./styles.sass"
 
 const steps =[
     {
@@ -63,7 +40,7 @@ export default () => (
                 development, I needed to be aware of the main trends and technologies and to be mindful of the emerging technologies and changes
                 in the internet to develop seamless web experience.
             </p>
-            <Link to="/contact"><Button>contact me</Button></Link>
+            <LinkButton to="/contact">contact me</LinkButton>
         </section>
         <div className="projects">
             <section>
